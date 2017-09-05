@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SwiftySocket_Tests' do
+  pod 'SwiftySocket', :path => '../'
+  
+  
+end
