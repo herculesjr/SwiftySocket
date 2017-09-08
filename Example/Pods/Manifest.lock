@@ -1,0 +1,16 @@
+PODS:
+  - SwiftySocket (0.1.0)
+
+DEPENDENCIES:
+  - SwiftySocket (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftySocket:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SwiftySocket: dc1b7146988eb82d1a0126d18233a4be067c7435
+
+PODFILE CHECKSUM: 376f6a7a6cce3a1738011b4d655674d4f7b3d8ea
+
+COCOAPODS: 1.2.1

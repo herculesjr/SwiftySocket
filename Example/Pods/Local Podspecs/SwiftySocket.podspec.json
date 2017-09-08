@@ -1,0 +1,22 @@
+{
+  "name": "SwiftySocket",
+  "version": "0.1.0",
+  "summary": "A short description of SwiftySocket.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Hercules Cunha/SwiftySocket",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Hercules Cunha": "hercules.cunha@arctouch.com"
+  },
+  "source": {
+    "git": "https://github.com/Hercules Cunha/SwiftySocket.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SwiftySocket/Classes/**/*"
+}

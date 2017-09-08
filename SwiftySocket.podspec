@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SwiftySocket'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SwiftySocket.'
+  s.summary          = 'SwiftySocket is a socket based Stream / NSStream swift wrapper.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +18,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+SwiftySocket is a socket based stream / NSStream swift wrapper.
                        DESC
 
-  s.homepage         = 'https://github.com/Hercules Cunha/SwiftySocket'
+  s.homepage         = 'https://github.com/herculesjr/SwiftySocket'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Hercules Cunha' => 'hercules.cunha@arctouch.com' }
-  s.source           = { :git => 'https://github.com/Hercules Cunha/SwiftySocket.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'Hercules Farnesi da Costa Cunha Junior' => 'herculesjr@gmail.com' }
+  s.source           = { :git => 'https://github.com/herculesjr/SwiftySocket.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/herculesjr'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '8.3'
 
   s.source_files = 'SwiftySocket/Classes/**/*'
   

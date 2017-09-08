@@ -1,6 +1,6 @@
 # SwiftySocket
 
-[![CI Status](http://img.shields.io/travis/Hercules Cunha/SwiftySocket.svg?style=flat)](https://travis-ci.org/Hercules Cunha/SwiftySocket)
+[![CI Status](http://img.shields.io/travis/herculesjr/SwiftySocket.svg?style=flat)](https://travis-ci.org/herculesjr/SwiftySocket)
 [![Version](https://img.shields.io/cocoapods/v/SwiftySocket.svg?style=flat)](http://cocoapods.org/pods/SwiftySocket)
 [![License](https://img.shields.io/cocoapods/l/SwiftySocket.svg?style=flat)](http://cocoapods.org/pods/SwiftySocket)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftySocket.svg?style=flat)](http://cocoapods.org/pods/SwiftySocket)
@@ -22,7 +22,7 @@ pod 'SwiftySocket'
 
 ## Author
 
-Hercules Cunha, hercules.cunha@arctouch.com
+Hercules Junior, herculesjr@gmail.com
 
 ## License
 
