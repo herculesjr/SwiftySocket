@@ -44,6 +44,7 @@ public class SwiftySocket: NSObject {
         }
         self.timeoutTimer = Timer.scheduledTimer(timeInterval: timeout, target: self, selector: #selector(SwiftySocket.timeoutTriggered), userInfo: nil, repeats: false)
         self.readStream?.open()
+        self.writeStream?.open()
     }
     
     public func send(_ data: Data) {
@@ -77,7 +78,7 @@ public class SwiftySocket: NSObject {
         writeDataQueue.length = 0
     }
     
-    func timeoutTriggered() {
+    @objc func timeoutTriggered() {
         connectHandler?(.timeout)
         disconnect()
     }
@@ -105,7 +106,9 @@ extension SwiftySocket: StreamDelegate {
             readHandler?(readDataQueue as Data)
             readDataQueue.setData(Data())
         case Stream.Event.hasSpaceAvailable:
-            send(writeDataQueue as Data)
+            let data = writeDataQueue as Data
+            writeDataQueue.setData(Data())
+            send(data)
         case Stream.Event.errorOccurred:
             connectHandler?(SwiftySocketError.buildError(given: aStream.streamError))
         case Stream.Event.endEncountered:
