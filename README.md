@@ -1,7 +1,7 @@
 # SwiftySocket
 
 [![CI Status](http://img.shields.io/travis/herculesjr/SwiftySocket.svg?style=flat)](https://travis-ci.org/herculesjr/SwiftySocket)
-[![Coverage Status](https://coveralls.io/repos/github/herculesjr/SwiftySocket/badge.svg?branch=master)](https://coveralls.io/github/herculesjr/SwiftySocket?branch=master)
+[![codecov](https://codecov.io/gh/herculesjr/SwiftySocket/branch/master/graph/badge.svg)](https://codecov.io/gh/herculesjr/SwiftySocket)
 [![Version](https://img.shields.io/cocoapods/v/SwiftySocket.svg?style=flat)](http://cocoapods.org/pods/SwiftySocket)
 [![License](https://img.shields.io/cocoapods/l/SwiftySocket.svg?style=flat)](http://cocoapods.org/pods/SwiftySocket)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftySocket.svg?style=flat)](http://cocoapods.org/pods/SwiftySocket)
