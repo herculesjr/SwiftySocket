@@ -10,7 +10,7 @@ language: objective-c
 # - gem install cocoapods # Since Travis is not always on latest version
 # - pod install --project-directory=Example
 script:
-- xcodebuild test -workspace Example/SwiftySocket.xcworkspace -scheme SwiftySocket-Example -sdk iphonesimulator10.3 -destination "platform=iOS Simulator,name=iPhone 6" ONLY_ACTIVE_ARCH=NO
+- xcodebuild test -workspace Example/SwiftySocket.xcworkspace -scheme SwiftySocket_Tests -sdk iphonesimulator10.3 -destination "platform=iOS Simulator,name=iPhone 6"
 after_success:
   - bash <(curl -s https://codecov.io/bash) 
   
